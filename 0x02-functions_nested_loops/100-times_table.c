@@ -4,7 +4,7 @@
  * print_times_table - prints the times table
  *@: number for multiplication
  */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 	int num, x, prod;
 
