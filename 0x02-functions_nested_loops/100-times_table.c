@@ -34,7 +34,7 @@ void print_times_table(int n)
 					}
 				else if (n < 0 && n > 15)
 				{
-					_putchar('');
+					_putchar(' ');
 				_putchar(',');
 				_putchar(' ');
 			}
