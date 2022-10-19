@@ -23,7 +23,7 @@ void print_times_table(int n)
 					}
 				else
 				{
-					putchar(k + '0');
+					_putchar(k + '0');
 				}
 				if (i != n)
 				_putchar(',');
