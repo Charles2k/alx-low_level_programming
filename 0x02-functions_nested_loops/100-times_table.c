@@ -12,6 +12,9 @@ void print_times_table(int n)
 	{
 		return;
 	}
+	else if ( n = 0)
+	{
+		_putchar('0')}
 		while (i <= n)
 		{
 			for (j = 0; j <= n; j++)
@@ -37,7 +40,7 @@ void print_times_table(int n)
 					_putchar(k + '0');
 					_putchar(',');
 					_putchar(' '); }
-				if (j < n && j != 0)
+				if (j < n && j != 0 && i != 0)
 				_putchar(',');
 				_putchar(' ');
 			}
