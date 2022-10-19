@@ -32,16 +32,14 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(k + '0'); }
-				if (j < n)
-				_putchar(',');
-				_putchar(' ');
-				if (i == 0 && j == 0)
+				else
 				{
 					_putchar(k + '0');
 					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(' '); }
+				if (j < n && j != 0)
+				_putchar(',');
+				_putchar(' ');
 			}
 			_putchar('\n');
 			i++;
