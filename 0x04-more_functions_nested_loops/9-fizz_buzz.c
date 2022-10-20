@@ -7,7 +7,7 @@
  *buzz for multiples of 5 and fizz buzz for multiles
  *of both
  *
- *Return - Always 0
+ *Return: Always 0
  */
 int main(void)
 {
