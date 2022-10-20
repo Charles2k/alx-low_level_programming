@@ -8,14 +8,18 @@
   *
   *Return: Always 0 (Success)
   */
-int print_diagonal(int n)
+void print_diagonal(int n)
 {
-	int l;
+	int l, s;
 
-	if (n > 0)
+	if (n <= 0)
+		_putchar('\n);
+
+	for (l = 0; l < n; l++)
 	{
-		for (l = 0; l < n; l++)
-			_putchar('_')
-	}
+		for (s = 0; s < l; s++)
+			_putchar(' ');
+		_putchar('\\');
 		_putchar('\n');
+	}
 }
