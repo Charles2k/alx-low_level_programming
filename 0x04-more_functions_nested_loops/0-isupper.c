@@ -8,11 +8,11 @@
   *description - Prints 1 if c is uppercase and
   * 0 if c is otherwise
   *
-  *Return: 1 for uppercase, 0 if otherwise
+  *Return: Always 0
   */
 int _isupper(int c)
 {
-		if (c >= 'A' || C <= 'Z')
+		if (c >= 'A' && c <= 'Z')
 		{
 			return (1);
 		}
