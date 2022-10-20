@@ -17,7 +17,6 @@ void print_number(int n)
 		num *= -1;
 		_putchar('-');
 	}
-
 	m = 1;
 	c = 1;
 	while (c)
@@ -27,7 +26,6 @@ void print_number(int n)
 		else
 			c = 0;
 	}
-
 	while (num >= 0)
 	{
 		if (m == 1)
