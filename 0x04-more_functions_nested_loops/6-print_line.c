@@ -1,30 +1,22 @@
 #include "main.h"
 
 /**
-  *print_line - prints a line of described length
-  *
-  *@n:number of characters to be printed
-  *description: draw straight line
-  *
-  *Return: Always 0
-  */
-int void print_line(int n)
+ *print_line - prints a line of described length
+ *
+ *@n:number of characters to be printed
+ *description: draw straight line
+ *
+ *Return: Always 0
+ */
+void print_line(int n)
 {
-	int count = n;
-	char a = 95;
+	int l;
 
-	for (n >= 0; n <= coun; n++)
+	if (n > 0)
 	{
-		if (n <= 0)
-		{
-			_putchar('\\n')
-		}
-		else if (n > 0)
-		{
-			_putchar('a');
-		}
-		_putchar('\\n')
+		for (l = 0; l < n; l++)
+			_putchar('_')
+
 	}
 	_putchar('\n');
-	return (0);
 }
