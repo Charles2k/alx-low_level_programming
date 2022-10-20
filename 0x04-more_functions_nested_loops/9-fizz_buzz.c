@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
-  *main - entry point
-  *
-  *description - print fizz  for multiples of 3
-  *buzz for multiples of 5 and fizz buzz for multiles
-  *of both
-  *
-  *Return - Always 0
-  */
+ *main - entry point
+ *
+ *description - print fizz  for multiples of 3
+ *buzz for multiples of 5 and fizz buzz for multiles
+ *of both
+ *
+ *Return - Always 0
+ */
 int main(void)
 {
 	int i;
