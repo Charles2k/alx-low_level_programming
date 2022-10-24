@@ -1,7 +1,5 @@
 #include "main.h"
 
-#include "holberton.h"
-
 /**
  * _atoi - Convert a string to integer.
  * @s: char array string
