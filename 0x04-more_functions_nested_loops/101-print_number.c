@@ -7,15 +7,15 @@
  */
 void print_number(int n)
 {
-	unsigned int num; /* convert int to long */
+	unsigned int n;
 
-	if (num < 0)
+	if (n < 0)
 	{
-		num *= -1;
+		n *= -1;
 		_putchar('-');
 	}
-	while (num >= 0)
+	else if (n >= 0)
 	{
-			_putchar(num % 10 + '0');
+		_putchar((n % 10) + '0');
 	}
 }
