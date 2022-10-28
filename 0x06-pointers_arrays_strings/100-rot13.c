@@ -2,11 +2,11 @@
 
 /**
  * rot13 - rotate characters 13 places in the alphabet
- * @s: string
- * Return: string `s` rotated
+ * @str: string
+ * Return: string `str` rotated
  */
 
-char *rot13(char *s)
+char *rot13(char *str)
 {
 	int indx1 = 0, indx2;
 	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
