@@ -3,14 +3,14 @@ global main
 section .text
 
 main:
-  mov rax, 1
-  mov rdi, 1
-  mov rsi, msg
-  mov rdx, msglen
+  mov eax, 1
+  mov edi, 1
+  mov esi, msg
+  mov edx, msglen
   syscall
 
-  mov rax, 60
-  mov rdi, 0
+  mov eax, 60
+  mov edi, 0
   syscall
 
 section .rodata
